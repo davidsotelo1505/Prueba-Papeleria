@@ -49,7 +49,7 @@ public class OrderUserServiceImp implements OrderUserService {
 	
 	public String deleteOrderUser(Long id) {
 		orderUserRepository.delete(id);
-		return "{'message':'Pedido eliminado correctamente}";
+		return "{'message':'Pedido eliminado correctamente :v}";
 	}
 
 	@Override
